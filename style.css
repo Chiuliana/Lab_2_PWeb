@@ -255,3 +255,67 @@ h6 {
 .services-section__service sup {
   font-size: 0.75rem;
 }
+
+.products-section {
+  background-color: rgb(245, 240, 234);
+}
+
+.products-section__text {
+  grid-column: 1 / span 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 7.5rem 4.375rem;
+}
+
+.products-section__icon {
+  width: 9.375rem;
+  height: 9.375rem;
+}
+
+.products-section__description {
+  width: 70%;
+  text-align: center;
+}
+
+.products-section__image {
+  grid-column: 7 / span 6;
+}
+
+.offers-section {
+  background-color: rgb(243, 243, 243);
+  padding: 7.5rem 0;
+  row-gap: 3.125rem;
+}
+
+.offers-section__card {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.offers-section__card img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.offers-section__card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.offers-section__card-text p:first-of-type {
+  margin-top: 0.25rem;
+  color: rgba(53, 50, 51, 0.6);
+}
+
+.offers-section__card-text p:last-of-type {
+  margin-top: 1rem;
+}
