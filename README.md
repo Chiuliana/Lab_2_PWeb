@@ -1,22 +1,37 @@
-# Lab 2 - Landing page
+# SPHERA Beauty Salon
 
-Create a web page for your/friends/relatives business (example: car-rent, cookies-shop, crypto-scam)
+Welcome to the SPHERA Beauty Salon landing page repository. This project showcases a modern and elegant website for a beauty salon based in Bucharest, Romania. The site provides visitors with information about our services, special offers, and contact details, aiming to enhance user engagement and drive bookings.
 
-## Customer requirements
+## Table of Contents
 
-- Some form of navigation to sections (links, buttons)
-- Call to action
-- At least 4 sections ([see examples](https://webflow.com/blog/high-converting-landing-page))
-- Pleasant to the eyes
+- [Introduction](#introduction)
+- [Features](#features)
+- [Screenshot](#screenshots)
+- [Live Demo](#live-demo)
+- [Technologies Used](#technologies-used)
 
-## Dev requirements
+## Introduction
 
-- Use vanilla CSS and HTML (no frameworks)
-- Have a decent git history (no one commit)
-- The page should be deployed on a free hosting service (example: GitHub Pages, Vercel, Netlify)
-- Project repo should have a README with a short description of the landing page topic, screenshots, and a link to the live demo
+SPHERA is your go-to beauty destination, offering personalized care and luxurious treatments. Our mission is to provide an individual approach to each client, ensuring tailored beauty solutions, commitment to quality, and dedication to innovation. This landing page reflects our brand's ethos and offers visitors a seamless experience to explore our offerings.
 
-## Other requirements:
+## Features
 
-- For potential maximal mark, a WIP version should be submitted during the class
-- Use index.html, reset.css
+- **Responsive Design**: Ensures optimal viewing experience across various devices.
+- **Service Overview**: Detailed descriptions of our hair, skincare, and makeup services.
+- **Special Offers**: Highlighting current promotions and exclusive deals.
+- **Contact Information**: Easy access to our address, phone numbers, and email for bookings and inquiries.
+- **Newsletter Subscription**: Allows visitors to stay updated with our latest news and offers.
+
+## Screenshot
+
+![Landing Page](sphera_beauty.jpg)
+_Homepage showcasing our salon's ambiance._
+
+## Live Demo
+
+Experience the live version of our landing page: [SPHERA Beauty Salon](https://chiuliana.github.io)
+
+## Technologies Used
+
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling and layout.
