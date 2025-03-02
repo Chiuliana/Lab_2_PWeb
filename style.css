@@ -155,3 +155,8 @@ h6 {
   justify-content: center;
   gap: 1.25rem;
 }
+
+.about-section {
+  padding: 7.5rem 0;
+  row-gap: 1.5rem;
+}
