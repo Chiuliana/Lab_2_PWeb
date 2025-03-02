@@ -7,3 +7,109 @@
   font-family: "Vela Sans";
   src: url(./assets/fonts/VelaSans-GX.ttf) format("truetype");
 }
+
+.bg-image__texture-logo {
+  background: url(/images/bg_logo_texture.jpg) no-repeat center center/cover;
+}
+
+.bg-image__hair {
+  background: url(/images/hair_treatment.jpg) no-repeat center center/cover;
+}
+
+.bg-image__skincare {
+  background: url(/images/applying_cream.jpg) no-repeat center center/cover;
+}
+
+.bg-image__makeup {
+  background: url(/images/makeup.jpg) no-repeat center center/cover;
+}
+
+body {
+  font-family: "Vela Sans";
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h6 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.button {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.button--white {
+  color: white;
+  border-color: white;
+}
+
+.button--white:hover {
+  color: black;
+  background-color: white;
+}
+
+.button--black:hover {
+  color: white;
+  background-color: black;
+}
+
+.button--white:active {
+  color: white;
+  border-color: transparent;
+}
+
+.button--black:active {
+  color: black;
+  background-color: transparent;
+}
+
+.icon-button {
+  width: min-content;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(12, 90px);
+  column-gap: 30px;
+  justify-content: center;
+}
+
+.section__title {
+  grid-column: 1 / span 12;
+  font-family: "Monarque";
+  font-weight: 300;
+  text-align: center;
+}
+
+.section__subtitle {
+  grid-column: 1 / span 12;
+  font-size: 1.125rem;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.section__name {
+  grid-column: 1 / span 12;
+  font-weight: 500;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.section__button-wrapper {
+  grid-column: 1 / span 12;
+  display: flex;
+  justify-content: center;
+}
