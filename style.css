@@ -9,19 +9,22 @@
 }
 
 .bg-image__texture-logo {
-  background: url(/images/bg_logo_texture.jpg) no-repeat center center/cover;
+  background: url(./assets/images/bg_logo_texture.jpg) no-repeat center
+    center/cover;
 }
 
 .bg-image__hair {
-  background: url(/images/hair_treatment.jpg) no-repeat center center/cover;
+  background: url(./assets/images/hair_treatment.jpg) no-repeat center
+    center/cover;
 }
 
 .bg-image__skincare {
-  background: url(/images/applying_cream.jpg) no-repeat center center/cover;
+  background: url(./assets/images/applying_cream.jpg) no-repeat center
+    center/cover;
 }
 
 .bg-image__makeup {
-  background: url(/images/makeup.jpg) no-repeat center center/cover;
+  background: url(./assets/images/makeup.jpg) no-repeat center center/cover;
 }
 
 body {
@@ -151,4 +154,9 @@ h6 {
   align-items: center;
   justify-content: center;
   gap: 1.25rem;
+}
+
+.about-section {
+  padding: 7.5rem 0;
+  row-gap: 1.5rem;
 }
