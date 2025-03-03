@@ -650,3 +650,16 @@ h6 {
   height: 200px;
   width: auto;
 }
+
+.mascot:hover::after {
+  content: "Hi, I'm Lulu! \A Welcome to Sphere Beauty—let's shine! ✨";
+  white-space: pre;
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: -200px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: black;
+  background-color: white;
+}
