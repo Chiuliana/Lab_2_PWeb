@@ -413,3 +413,13 @@ h6 {
   color: rgba(255, 255, 255, 0.5);
   font-weight: 300;
 }
+.mascot {
+  position: fixed;
+  bottom: -5px;
+  right: 0;
+}
+
+.mascot__image {
+  height: 200px;
+  width: auto;
+}
