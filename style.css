@@ -679,3 +679,128 @@ h6 {
   color: black;
   background-color: white;
 }
+
+@media only screen and (max-width: 1440px) {
+  .section {
+    grid-template-columns: repeat(12, 80px);
+    column-gap: 24px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .section {
+    grid-template-columns: repeat(12, 65px);
+    column-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .section {
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 1.5rem;
+    padding: 7.5rem 1.5rem;
+  }
+
+  .section__title {
+    grid-column: 1 / span 8;
+  }
+
+  .section__subtitle {
+    grid-column: 1 / span 8;
+  }
+
+  .section__name {
+    grid-column: 1 / span 8;
+  }
+
+  .section__button-wrapper {
+    grid-column: 1 / span 8;
+  }
+
+  .nav {
+    grid-column: 1 / span 8;
+  }
+
+  .hero-section {
+    padding: 1rem;
+  }
+
+  .hero-section__content {
+    grid-column: 1 / span 8;
+  }
+
+  .approach-section__main-image {
+    grid-column: 2 / span 6;
+  }
+
+  .approach-section__points {
+    grid-column: 1 / span 8;
+  }
+
+  .approach-section__gallery {
+    grid-column: 1 / span 8;
+  }
+
+  .approach-section__images {
+    width: 100%;
+  }
+
+  .services-section {
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  .services-section__title {
+    grid-column: 1 / span 9;
+  }
+
+  .services-section__service {
+    grid-column: span 3;
+  }
+
+  .products-section__text {
+    grid-column: 1 / span 8;
+  }
+
+  .products-section__image {
+    grid-column: 1 / span 8;
+    grid-row: 2;
+  }
+
+  .offers-section__card {
+    grid-column: span 4;
+  }
+
+  .book-section__content {
+    grid-column: 1 / span 8;
+  }
+
+  .footer__logo {
+    grid-column: 1 / span 8;
+  }
+
+  .footer__divider {
+    grid-column: 1 / span 8;
+  }
+
+  .footer__content {
+    grid-column: 1 / span 8;
+    grid-row: span 2;
+    flex-wrap: wrap;
+  }
+
+  .footer__content > div {
+    flex: 1 1 0;
+  }
+
+  .footer__newsletter {
+    grid-column: 1 / span 8;
+  }
+
+  .footer__legal {
+    grid-column: 1 / span 8;
+  }
+
+  .mascot {
+    display: none;
+  }
+}
