@@ -804,3 +804,29 @@ h6 {
     display: none;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .nav__list {
+    display: none;
+  }
+
+  .nav__burger-button-wrapper {
+    display: flex;
+  }
+
+  .nav__call-wrapper {
+    display: flex;
+  }
+
+  .nav__button-wrapper {
+    display: none;
+  }
+
+  .services-section__service {
+    grid-column: span 9;
+  }
+
+  .footer__form > input {
+    width: 100%;
+  }
+}
