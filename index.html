@@ -10,12 +10,42 @@
   </head>
   <body>
     <main>
+      <aside id="burger-menu" class="burger">
+        <div class="burger__close-wrapper">
+          <label for="burger" class="icon-button">
+            <img src="./assets/icons/close-btn.svg" alt="close" />
+          </label>
+        </div>
+        <ul class="burger__list">
+          <li><a href="#about">About us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger__buttons">
+          <a href="tel:+40 721 345 678" class="button button--black"
+            >+40 721 345 678
+          </a>
+          <div class="burger__socials">
+            <a
+              class="icon-button"
+              href="https://www.facebook.com/iuliana.chichioi"
+              ><img src="./assets/icons/fb-black.svg" alt="facebook icon"
+            /></a>
+            <a
+              class="icon-button"
+              href="https://www.instagram.com/iulianachichioi/"
+              ><img src="./assets/icons/inst-black.svg" alt="instagram icon"
+            /></a>
+          </div>
+        </div>
+      </aside>
       <section class="section hero-section">
         <nav class="nav">
           <div class="nav__burger-button-wrapper">
-            <button class="icon-button">
+            <input type="checkbox" id="burger" />
+            <label class="icon-button" for="burger">
               <img src="./assets/icons/menu.svg" alt="menu" />
-            </button>
+            </label>
           </div>
           <ul class="nav__list">
             <li><a href="#about">About us</a></li>
