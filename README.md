@@ -29,7 +29,7 @@ _Homepage showcasing our salon's ambiance._
 
 ## Live Demo
 
-Experience the live version of our landing page: [SPHERA Beauty Salon](https://chiuliana.github.io)
+Experience the live version of our landing page: [SPHERA Beauty Salon](https://chiuliana.github.io/Lab_2_PWeb/)
 
 ## Technologies Used
 
