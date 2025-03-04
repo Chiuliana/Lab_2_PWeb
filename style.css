@@ -881,4 +881,8 @@ main:has(#burger:checked) .burger {
   .footer__form > input {
     width: 100%;
   }
+
+  .burger {
+    width: 50vw;
+  }
 }
