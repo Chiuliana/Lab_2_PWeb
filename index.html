@@ -23,6 +23,8 @@
           extend: {
             gridTemplateColumns: {
               "12-90px": "repeat(12, 90px)",
+              "12-80px": "repeat(12, 80px)",
+              "12-65px": "repeat(12, 65px)",
             },
           },
           fontFamily: {
@@ -106,7 +108,7 @@
         </div>
       </section>
       <section
-        class="grid grid-cols-12-90px gap-x-[30px] justify-center py-[7.5rem] gap-y-6 2xl:gap-x-[24px] xl:gap-x-[20px]"
+        class="grid grid-cols-12-90px gap-x-[30px] justify-center py-[7.5rem] gap-y-6 2xl:grid-cols-12-80px 2xl:gap-x-[24px] xl:grid-cols-12-65px xl:gap-x-[20px] lg:grid-cols-8 lg:gap-x-6 lg:px-6"
       >
         <p class="col-span-full text-center text-xl">About us</p>
         <h2 class="col-span-full text-center font-monarque font-light">
@@ -125,7 +127,7 @@
         class="grid grid-cols-12-90px gap-x-[30px] justify-center bg-[#f5f0ea] 2xl:gap-x-[24px] xl:gap-x-[20px]"
       >
         <img
-          class="rounded-2xl mt-[-60px] w-full col-start-4 col-span-6"
+          class="rounded-2xl mt-[-60px] w-full col-start-4 col-span-6 lg:col-start-2"
           src="./assets/images/salon_section_2.jpg"
           alt="salon preview"
         />
