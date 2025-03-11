@@ -6,6 +6,25 @@
     <link rel="stylesheet" href="./modern-normalize.css" />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        corePlugins: {
+          preflight: false,
+        },
+        theme: {
+          extend: {
+            gridTemplateColumns: {
+              "12-90px": "repeat(12, 90px)",
+            },
+          },
+          fontFamily: {
+            monarque: ["Monarque", "sans-serif"],
+            vela: ["Vela Sans", "sans-serif"],
+          },
+        },
+      };
+    </script>
     <title>Sphera Beauty</title>
   </head>
   <body>
