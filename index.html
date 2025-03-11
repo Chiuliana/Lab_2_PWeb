@@ -13,6 +13,13 @@
           preflight: false,
         },
         theme: {
+          screens: {
+            "2xl": { max: "1440px" },
+            xl: { max: "1280px" },
+            lg: { max: "1024px" },
+            md: { max: "768px" },
+            sm: { max: "640px" },
+          },
           extend: {
             gridTemplateColumns: {
               "12-90px": "repeat(12, 90px)",
@@ -99,7 +106,7 @@
         </div>
       </section>
       <section
-        class="grid grid-cols-12-90px gap-x-[30px] justify-center py-[7.5rem] gap-y-6"
+        class="grid grid-cols-12-90px gap-x-[30px] justify-center py-[7.5rem] gap-y-6 2xl:gap-x-[24px] xl:gap-x-[20px]"
       >
         <p class="col-span-full text-center text-xl">About us</p>
         <h2 class="col-span-full text-center font-monarque font-light">
@@ -115,7 +122,7 @@
         </div>
       </section>
       <section
-        class="grid grid-cols-12-90px gap-x-[30px] justify-center bg-[#f5f0ea]"
+        class="grid grid-cols-12-90px gap-x-[30px] justify-center bg-[#f5f0ea] 2xl:gap-x-[24px] xl:gap-x-[20px]"
       >
         <img
           class="rounded-2xl mt-[-60px] w-full col-start-4 col-span-6"
