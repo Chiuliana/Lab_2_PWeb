@@ -98,64 +98,90 @@
           </button>
         </div>
       </section>
-      <section class="section about-section bg-image__texture-logo">
-        <p class="section__name">About us</p>
-        <h2 class="section__title">
+      <section
+        class="grid grid-cols-12-90px gap-x-[30px] justify-center py-[7.5rem] gap-y-6"
+      >
+        <p class="col-span-full text-center text-xl">About us</p>
+        <h2 class="col-span-full text-center font-monarque font-light">
           Founded in Bucharest, SPHERA is your go-to beauty destination,
           offering personalized care and luxurious treatments.
         </h2>
-        <div class="section__button-wrapper">
-          <button class="button button--black">Our story</button>
+        <div class="col-span-full flex justify-center">
+          <button
+            class="text-center px-4 py-2 border border-solid border-black rounded-md cursor-pointer hover:bg-black hover:text-white active:bg-transparent active:text-black"
+          >
+            Our story
+          </button>
         </div>
       </section>
-      <section class="section approach-section">
+      <section
+        class="grid grid-cols-12-90px gap-x-[30px] justify-center bg-[#f5f0ea]"
+      >
         <img
-          class="approach-section__main-image"
+          class="rounded-2xl mt-[-60px] w-full col-start-4 col-span-6"
           src="./assets/images/salon_section_2.jpg"
           alt="salon preview"
         />
-        <h2 class="section__title approach-section__title">
+        <h2
+          class="col-span-full text-center font-monarque font-light mt-[7.5rem]"
+        >
           Our approach at SPHERA
         </h2>
-        <p class="section__subtitle approach-section__subtitle">
+        <p
+          class="col-span-full text-center text-xl text-black text-opacity-70 mt-3"
+        >
           Individual approach to each client
         </p>
-        <div class="approach-section__points">
-          <div class="approach-section__point">
-            <img src="./assets/icons/icon_1.svg" />
+        <div
+          class="col-start-2 col-span-10 flex items-center justify-between text-center mt-[3.75rem]"
+        >
+          <div class="flex flex-col items-center gap-6 text-[#353233]">
+            <img
+              src="./assets/icons/icon_1.svg"
+              alt="Tailored Beauty Solutions icon"
+              class="w-auto h-auto"
+            />
             <span>Tailored Beauty Solutions</span>
           </div>
-          <div class="approach-section__point">
-            <img src="./assets/icons/icon_2.svg" />
+          <div class="flex flex-col items-center gap-6 text-[#353233]">
+            <img
+              src="./assets/icons/icon_2.svg"
+              alt="Commitment icon"
+              class="w-auto h-auto"
+            />
             <span>Commitment to quality</span>
           </div>
-          <div class="approach-section__point">
-            <img src="./assets/icons/icon_3.svg" />
+          <div class="flex flex-col items-center gap-6 text-[#353233]">
+            <img
+              src="./assets/icons/icon_3.svg"
+              alt="Dedication icon"
+              class="w-auto h-auto"
+            />
             <span>Dedication to innovation</span>
           </div>
         </div>
-        <div class="approach-section__gallery">
-          <div class="approach-section__images">
-            <div class="approach-section__images-wrapper">
+        <div class="col-span-full flex flex-col items-center py-[7.5rem]">
+          <div class="w-[98vw] flex justify-center overflow-hidden">
+            <div class="flex items-center w-max gap-[75px]">
               <img
-                class="approach-section__image"
+                class="w-[60vw]"
                 src="./assets/images/salon_wash_room.jpg"
                 alt="salon wash room"
               />
               <img
-                class="approach-section__image"
+                class="w-[60vw]"
                 src="./assets/images/salon_free_space.jpg"
                 alt="salon rest room"
               />
               <img
-                class="approach-section__image"
+                class="w-[60vw]"
                 src="./assets/images/salon_mirrors.jpg"
                 alt="salon mirrors"
               />
             </div>
           </div>
-          <span class="approach-section__pagination">
-            <span class="approach-section__pagination--active">1</span>
+          <span class="text-2xl font-monarque text-[#353233] mt-[1.875rem]">
+            <span class="text-[#5c524a]">1</span>
             /
             <span>7</span>
           </span>
